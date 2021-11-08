@@ -7,15 +7,23 @@ For this particular project, we determined the efficacy of Louise's various Kick
 The purpose of this analysis was for the class to demonstrate a wide range of Excel skills and knowledge.  We were able to create pivot tables and charts using data we organized through filters and categories, translated through date conversions, and refined through categories and sub categories.
 
 ## Analysis and Challenges
-Our first analysis was Outcomes based on Launch Date followed by an Analysis of Outcomes based on Goals.  Before beginning either analysis, we created new columns to create the percentage funded and average donation cells.  We used the Round() function while dividing the goal amount by the pledged amount to generate this number.  We utilized the round() function again when determining the average donation by dividing the donations by the number of backers.  We also used the text to columns function to seperate the Categories into parent and subcategories.
+Our first analysis was Outcomes based on Launch Date followed by an Analysis of Outcomes based on Goals.  Before beginning either analysis, we created new columns to create the percentage funded and average donation cells.  We used the Round() function while dividing the goal amount by the pledged amount to generate this number.  We utilized the round() function again when determining the average donation by dividing the donations by the number of backers.  
+![Roung.png](https://github.com/WIPartain/kickstarter-analysis/blob/main/roung.png?raw=true)
+
+We also used the text to columns function to seperate the Categories into parent and subcategories.
+![Category.png](https://github.com/WIPartain/kickstarter-analysis/blob/main/Category.png?raw=true)
 
 ### Analysis of Outcomes Based on Launch Date
-We used an epoch translation code which allowed us to effectively determine the date of the launch by creating a Date Created Conversion in Column S. From there, we used the year function to seperate the year of the launch into column R.  Once we isolated these two variables we created a pivot table filtering on the Parent category and the Years column we just created.  Our columns would be based on the "Outcomes" cells, and our Rows would be based on "Dates Created" which signified our launch dates.
+We used an epoch translation code which allowed us to effectively determine the date of the launch by creating a Date Created Conversion in Column S. From there, we used the year function to seperate the year of the launch into column R.  
+![date.png](https://github.com/WIPartain/kickstarter-analysis/blob/main/date.png?raw=true)
+Once we isolated these two variables we created a pivot table filtering on the Parent category and the Years column we just created.  Our columns would be based on the "Outcomes" cells, and our Rows would be based on "Dates Created" which signified our launch dates.
 
 We visualized this data using a Line Chart titled "Theater Outcomes by Launch Date."
 ![Theater_Outcomes_Vs_Launch.png](https://github.com/WIPartain/kickstarter-analysis/blob/main/Crowdfunding%20Analysis/Resources/Theater_Outcomes_Vs_Launch.png?raw=true)
 ### Analysis of Outcomes Based on Goals
-We created a new data sheet to determined outcomes based on the goals set for each kcikstarter campaign in our data set.  We created 12 different ranges for our goals, and used a countifs() function to count the number of times the outcomes resulted in "successful", "failed", or "canceled".  We then used this information to determine the percentage of successful, failed, and canceled.  We then visualized the results in another line graph.  
+We created a new data sheet to determined outcomes based on the goals set for each kickstarter campaign in our data set.  We created 12 different ranges for our goals, and used a countifs() function to count the number of times the outcomes resulted in "successful", "failed", or "canceled".  
+![Goals_Spreadsheet.png](https://github.com/WIPartain/kickstarter-analysis/blob/main/Goals_Spreadsheet.png?raw=true)
+We then used this information to determine the percentage of successful, failed, and canceled.  We then visualized the results in another line graph.  
 ![Outcomes_Vs_Goals.png](https://github.com/WIPartain/kickstarter-analysis/blob/main/Crowdfunding%20Analysis/Resources/Outcomes_vs_goals.png?raw=true)
 
 ### Challenges and Difficulties Encountered
