@@ -12,7 +12,7 @@
 ### Analysis of Outcomes Based on Launch Date
         By seperating the parent categories from their subcategories, we were able to effectively determine how successful a campaign was based on its launch date. In the theater genre specifically, we were able to conclude that May was the most successful month for theater fundraisers based on our data.  All months saw more success than failure wtih May having the largest gap between succes and failure, while December had the smallest. There were very few canceled shows at only 3 per week on average.
 
-        ![Theater_Outcomes_Vs_Launch.png]()
+        ![Theater_Outcomes_Vs_Launch.png](https://github.com/WIPartain/kickstarer-analysis/blob/main/Crowdfunding%20Analysis/Resources/Theater_Outcomes_Vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
